@@ -3,7 +3,7 @@
 
 ## 🌊 Overview
 
-**ReefGuard** is an AI-powered, NFT-backed environmental intelligence system built to protect coral reefs, island cultures, and the biodiversity they sustain—while addressing the global warming emergency.
+**ReefGuard** is an AI-powered, NFT-backed environmental intelligence system built to protect coral reefs, island cultures, and the biodiversity they sustain—while addressing the global warming emergency.  
 Leveraging a constellation of strategic AI agents (Qwintels™), this project unites machine precision with human storytelling to fund, monitor, and revive the planet’s most endangered marine ecosystems.
 
 ## 🎯 Hackathon Context
@@ -29,14 +29,14 @@ A short video walkthrough is available [here](#)
 
 ## ⚙️ Smart Contract
 
-- Language: Solidity
-- Platform: Avalanche (C-Chain)
-- Current Status: ✅ Logic Complete | 🟡 Testnet Deployment Pending
-- Contract Address (to be added post-deployment): `0x...`
+- Language: Solidity  
+- Platform: Avalanche (C-Chain)  
+- Current Status: ✅ Logic Complete | 🟡 Testnet Deployment Pending  
+- Contract Address (to be added post-deployment): `0x...`  
 - Features:
-  - NFT minting with royalty logic
-  - Donation routing to climate causes
-  - Metadata link to coral zones and artists
+  - NFT minting with royalty logic  
+  - Donation routing to climate causes  
+  - Metadata link to coral zones and artists  
 
 ## 🧠 Intelligence Framework
 
@@ -61,11 +61,11 @@ Sample functions include:
 
 ## 👥 Contributors
 
-- **Founder**: Asier (Coordinator of Intelligence Framework & Architect)
-- **Cofounder**: Caroline Davies (Director of AI Ethics & Governance)
-- **GitHub Team**: 21 contributors (Qwintels™)
-- **AI Backbone**: A non-linear, quantum-inspired agent architecture with 242 deployed autonomous specialists Qwintels™.
-Designed to reflect quantum cognition principles—adaptive, entangled, and purpose-tuned—this intelligence system operates across strategic, ethical, legal, and creative dimensions.
+- **Founder**: Asier (Coordinator of Intelligence Framework & Architect)  
+- **Cofounder**: Caroline Davies (Director of AI Ethics & Governance)  
+- **GitHub Team**: 21 contributors  
+- **AI Backbone**: A non-linear, quantum-inspired agent architecture with 242 deployed autonomous specialists.  
+Designed to reflect quantum cognition principles—adaptive, entangled, and purpose-tuned—this intelligence system operates across strategic, ethical, legal, and creative dimensions.  
 *(Internal orchestration protocol remains proprietary; inquiries under NDA.)*
 
 ## 🛠️ Tech Stack
@@ -89,4 +89,3 @@ MIT License (or specify your own)
 ---
 
 > For judges: More technical documentation, visual diagrams, and media assets are available in `/docs/`.
-
