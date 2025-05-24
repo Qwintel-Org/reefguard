@@ -10,10 +10,10 @@
   <p><strong>Status:</strong> <span id="greeting">Loading...</span></p>
   <button onclick="getGreeting()">Get Greeting</button>
 
-  <!-- Load Ethers.js correctly using UMD build -->
+  <!-- Load Ethers.js (UMD for browsers) -->
   <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
 
-  <!-- Your working logic -->
+  <!-- App logic -->
   <script>
     async function getGreeting() {
       if (typeof window.ethereum === 'undefined') {
@@ -21,23 +21,23 @@
         return;
       }
 
-      const provider = new ethers.providers.Web3Provider(window.ethereum);
-      await provider.send("eth_requestAccounts", []);
-      const signer = provider.getSigner();
-
-      const contractAddress = "0x02fcB5df2b11a549234F9299ee8AA8F32982708e";
-      const abi = [
-        "function greet() public pure returns (string memory)"
-      ];
-
-      const contract = new ethers.Contract(contractAddress, abi, signer);
-
       try {
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        await provider.send("eth_requestAccounts", []);
+        const signer = provider.getSigner();
+
+        const contractAddress = "0x02fcB5df2b11a549234F9299ee8AA8F32982708e";
+        const abi = [
+          "function greet() public pure returns (string memory)"
+        ];
+
+        const contract = new ethers.Contract(contractAddress, abi, signer);
         const greeting = await contract.greet();
+
         document.getElementById("greeting").innerText = greeting;
-      } catch (error) {
-        console.error(error);
-        alert("Failed to get greeting.");
+      } catch (err) {
+        console.error(err);
+        alert("Something went wrong. Check console for details.");
       }
     }
   </script>
