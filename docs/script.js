@@ -8,7 +8,7 @@ async function getGreeting() {
   await provider.send("eth_requestAccounts", []);
   const signer = provider.getSigner();
 
-  const contractAddress = "0x02fcB5df2b11a549234F9299ee8AA8F32982708e";  // Replace with your deployed address
+  const contractAddress = "0x02fcB5df2b11a549234F9299ee8AA8F32982708e"; // YOUR contract address
   const abi = [
     "function greet() public pure returns (string memory)"
   ];
