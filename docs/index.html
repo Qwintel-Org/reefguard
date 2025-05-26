@@ -6,38 +6,38 @@
   <title>ReefGuard Pilot</title>
 </head>
 <body>
-  <h1>ReefGuard Pilot Interface</h1>
+  <h1>🌊 ReefGuard Pilot Interface</h1>
   <p><strong>Status:</strong> <span id="greeting">Loading...</span></p>
   <button onclick="getGreeting()">Get Greeting</button>
 
-  <!-- Load Ethers.js (UMD for browsers) -->
+  <!-- Load Ethers.js (UMD build for browser compatibility) -->
   <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
 
-  <!-- App logic -->
+  <!-- Inline app logic -->
   <script>
-async function getGreeting() {
-  console.log("✅ Button clicked"); // ← Add this line for debugging
-  if (typeof window.ethereum === 'undefined') {
-    alert('MetaMask is required!');
-    return;
-  }
+    async function getGreeting() {
+      console.log("✅ Get Greeting button clicked");
+
+      if (typeof window.ethereum === 'undefined') {
+        alert('MetaMask is required!');
+        return;
+      }
 
       try {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         await provider.send("eth_requestAccounts", []);
         const signer = provider.getSigner();
 
-        const contractAddress = "0x02fcB5df2b11a549234F9299ee8AA8F32982708e";
+        const contractAddress = "0x02fcB5df2b11a549234F9299ee8AA8F32982708e"; // Verified address
         const abi = [
           "function greet() public pure returns (string memory)"
         ];
 
         const contract = new ethers.Contract(contractAddress, abi, signer);
         const greeting = await contract.greet();
-
         document.getElementById("greeting").innerText = greeting;
       } catch (err) {
-        console.error(err);
+        console.error("❌ Error calling greet():", err);
         alert("Something went wrong. Check console for details.");
       }
     }
