@@ -137,3 +137,11 @@ MIT License *(or customize as needed)*
 
 For judges and collaborators:  
 More technical documentation, diagrams, and media assets are located in the `/docs` folder.
+
+---
+
+## 🌐 ReefGuard Interactive Concept Page
+
+Here’s a visual prototype of the ReefGuard UI design:
+
+![ReefGuard UI Preview](./docs/A_webpage_for_the_ReefGuard_project_is_presented_i.png)
