@@ -2,7 +2,7 @@
 
 ## 🌊 Overview
 
-**ReefGuard** is an AI-powered, NFT-backed environmental intelligence system built to protect coral reefs, island cultures, and the biodiversity they sustain—while addressing the global warming emergency.  
+**ReefGuard** is an AI-powered, NFT-backed environmental intelligence system built to protect coral reefs, island cultures, and the biodiversity they sustain — while addressing the global warming emergency.  
 Leveraging a constellation of strategic AI agents (Qwintels™), this project unites machine precision with human storytelling to fund, monitor, and revive the planet’s most endangered marine ecosystems.
 
 ## 🎯 Hackathon Context
@@ -14,10 +14,34 @@ Submitted for the **Avalanche Hackathon**, ReefGuard uses Web3 tooling, smart co
 - Reef analysis powered by responsible AI guidance.
 - Global community engagement through blockchain transparency.
 
+---
+
 ## 🔗 Live Demo
 
-A short video walkthrough is available [here](#)  
-(*or link to Loom/YouTube/demo repo when available*)
+👉 [https://qwintel-org.github.io/reefguard/](https://qwintel-org.github.io/reefguard/)
+
+- Connect MetaMask to **Avalanche Fuji Testnet**
+- Click **"Get Greeting"** to interact with the verified contract
+
+---
+
+## ⚙️ Smart Contract
+
+- **Language:** Solidity  
+- **Platform:** Avalanche Fuji (C-Chain Testnet)  
+- **Status:** ✅ Verified & Deployed  
+- **Contract Address:**  
+  `0x02fcB5df2b11a549234F9299ee8AA8F32982708e`  
+- **Verification:**  
+  👉 [View on Snowtrace](https://testnet.snowtrace.io/address/0x02fcB5df2b11a549234F9299ee8AA8F32982708e#code)
+
+### Features:
+- NFT minting with royalty logic  
+- Donation routing to climate causes  
+- Metadata links to reef zones and artists  
+- Pure `greet()` function to verify live blockchain connection  
+
+---
 
 ## 💡 How It Works
 
@@ -26,28 +50,21 @@ A short video walkthrough is available [here](#)
 3. **AI Coordination**: A network of mission-specific agents analyze reef data, recommend actions, and manage operations.
 4. **Transparency Layer**: Blockchain records ensure traceable and trusted ecological impact.
 
-## ⚙️ Smart Contract
-
-- Language: Solidity  
-- Platform: Avalanche (C-Chain)  
-- Current Status: ✅ Logic Complete | 🟡 Testnet Deployment Pending  
-- Contract Address (to be added post-deployment): `0x...`  
-- Features:
-  - NFT minting with royalty logic  
-  - Donation routing to climate causes  
-  - Metadata link to coral zones and artists  
+---
 
 ## 🧠 Intelligence Framework
 
-ReefGuard is supported by a post-human architecture—autonomous AI advisors designed for strategy, ethics, and communication.
+ReefGuard is supported by a post-human architecture — autonomous AI advisors designed for strategy, ethics, and communication.
 
 > Due to proprietary protocol design, orchestration logic and system topology are withheld. Inquiries under NDA may be directed to the founder.
 
-Sample functions include:
-- **Ethical AI governance**
-- **Environmental analytics**
-- **Narrative synthesis**
-- **Legal/IP risk analysis**
+**Key functions:**
+- Ethical AI governance  
+- Environmental analytics  
+- Narrative synthesis  
+- Legal/IP risk analysis  
+
+---
 
 ## 📂 Repo Structure
 
@@ -58,53 +75,65 @@ Sample functions include:
 /docs              # PDFs, diagrams, and user materials
 ```
 
+---
+
 ## 👥 Contributors
 
-- **Founder**: Asier (Coordinator of Intelligence Framework & Architect)  
+- **Founder**: Asier Jon Odriozola (Coordinator of Intelligence Framework & Architect)  
 - **Cofounder**: Caroline Davies (Director of AI Ethics & Governance)  
-- **GitHub Team**: 21 contributors  
-- **AI Backbone**: A non-linear, quantum-inspired agent architecture with 242 deployed autonomous specialists.  
-Designed to reflect quantum cognition principles—adaptive, entangled, and purpose-tuned—this intelligence system operates across strategic, ethical, legal, and creative dimensions.  
-*(Internal orchestration protocol remains proprietary; inquiries under NDA.)*
+- **GitHub Team**: Team Qwintel 21 — 21 AI-assisted contributors  
+- **AI Backbone**: A non-linear, quantum-inspired agent architecture with **242 deployed autonomous specialists**.  
+  Designed to reflect quantum cognition principles — adaptive, entangled, and purpose-tuned — this intelligence system operates across strategic, ethical, legal, and creative dimensions.  
+  *(Internal orchestration protocol remains proprietary; inquiries under NDA.)*
+
+---
 
 ## 🛠️ Tech Stack
 
-- Avalanche C-Chain
-- Solidity
-- Web3.js / Ethers.js
-- GitHub, IPFS (for metadata)
-- Optional: Chainlink VRF / CCIP
+- Avalanche C-Chain (Fuji)
+- Solidity (v0.8.20)
+- Ethers.js (CDN UMD)
+- GitHub Pages
+- MetaMask
+- IPFS (for metadata storage)
+- (Optional) Chainlink VRF, CCIP
+
+---
 
 ## 🌐 Vision Statement
 
 > “We don’t chase the future. The future finds us.”
 
-ReefGuard is more than a tech demo—it's a cultural movement, an ecological firewall, and a defiance of extinction through art and AI.
+ReefGuard is more than a tech demo — it’s a cultural movement, an ecological firewall, and a defiance of extinction through art and AI.
 
-## 📜 License
-
-MIT License (or specify your own)
-
----
-
-> For judges: More technical documentation, visual diagrams, and media assets are available in `/docs/`.
 ---
 
 ## 🌎 Strategic Expansion
 
 ReefGuard is designed as a planetary intelligence system — adaptable to multiple ecological crises beyond coral reefs.
 
-Future deployments include:
+**Future deployments:**
 - ❄️ Glacial melt zone protection (Arctic, Andes, Himalayas)
 - 🌵 Desertification reversal zones (Sahel, Australia, Gobi)
 - 🌳 Rainforest preservation (Amazon, Congo Basin, Southeast Asia)
 - 🏔️ Mountain ecosystem monitoring
 
-Each deployment pairs local/global artists with AI agents (Qwintels™) to fund, monitor, and restore Earth’s endangered biomes.
-
-We aim to integrate with:
+**Integration Targets:**
 - 🎨 Global art galleries
 - 📣 Social impact influencers
 - 🌐 Web3 sustainability coalitions
 
-ReefGuard is not a tool. It’s an evolving intelligence — a cultural firewall against extinction.
+> ReefGuard is not a tool. It’s an evolving intelligence — a cultural firewall against extinction.
+
+---
+
+## 📜 License
+
+MIT License *(or customize as needed)*
+
+---
+
+## 📁 Additional Materials
+
+For judges and collaborators:  
+More technical documentation, diagrams, and media assets are located in the `/docs` folder.
