@@ -27,7 +27,7 @@ Submitted for the **Avalanche Hackathon**, ReefGuard uses Web3 tooling, smart co
 
 Here’s a visual prototype of the ReefGuard interface:
 
-[![ReefGuard UI Preview](./assets/reefguard_ui_preview.png)](./assets/reefguard_ui_preview.png)
+![ReefGuard UI Preview](https://github.com/Qwintel-Org/reefguard/blob/main/assets/reefguard_ui_preview.png?raw=true)
 
 ---
 
