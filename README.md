@@ -14,14 +14,29 @@ Submitted for the **Avalanche Hackathon**, ReefGuard uses Web3 tooling, smart co
 - Reef analysis powered by responsible AI guidance.
 - Global community engagement through blockchain transparency.
 
----
-
 ## 🔗 Live Demo
 
 👉 [https://qwintel-org.github.io/reefguard/](https://qwintel-org.github.io/reefguard/)
 
 - Connect MetaMask to **Avalanche Fuji Testnet**
 - Click **"Get Greeting"** to interact with the verified contract
+
+---
+
+## 🌐 ReefGuard Interactive UI Concept
+
+Here’s a visual prototype of the ReefGuard interface:
+
+[![ReefGuard UI Preview](./assets/reefguard_ui_preview.png)](./assets/reefguard_ui_preview.png)
+
+---
+
+## 💡 How It Works
+
+1. **Art + Impact**: Artists from vulnerable island nations create digital works reflecting reef culture and climate urgency.
+2. **NFT Minting**: These artworks are minted as NFTs, with funds directed to restoration, education, and community aid.
+3. **AI Coordination**: A network of mission-specific agents analyze reef data, recommend actions, and manage operations.
+4. **Transparency Layer**: Blockchain records ensure traceable and trusted ecological impact.
 
 ---
 
@@ -40,15 +55,6 @@ Submitted for the **Avalanche Hackathon**, ReefGuard uses Web3 tooling, smart co
 - Donation routing to climate causes  
 - Metadata links to reef zones and artists  
 - Pure `greet()` function to verify live blockchain connection  
-
----
-
-## 💡 How It Works
-
-1. **Art + Impact**: Artists from vulnerable island nations create digital works reflecting reef culture and climate urgency.
-2. **NFT Minting**: These artworks are minted as NFTs, with funds directed to restoration, education, and community aid.
-3. **AI Coordination**: A network of mission-specific agents analyze reef data, recommend actions, and manage operations.
-4. **Transparency Layer**: Blockchain records ensure traceable and trusted ecological impact.
 
 ---
 
@@ -73,6 +79,7 @@ ReefGuard is supported by a post-human architecture — autonomous AI advisors d
 /scripts           # Deployment and interaction scripts
 /frontend          # (Optional) Front-end demo app
 /docs              # PDFs, diagrams, and user materials
+/assets            # UI concept images and visuals
 ```
 
 ---
@@ -137,11 +144,3 @@ MIT License *(or customize as needed)*
 
 For judges and collaborators:  
 More technical documentation, diagrams, and media assets are located in the `/docs` folder.
-
----
-
-## 🌐 ReefGuard Interactive Concept Page
-
-Here’s a visual prototype of the ReefGuard UI design:
-
-![ReefGuard UI Preview](./docs/A_webpage_for_the_ReefGuard_project_is_presented_i.png)
