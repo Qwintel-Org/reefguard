@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ReefGuard Pilot Interface</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 2em; }
+        button { margin-top: 1em; padding: 0.5em 1em; }
+    </style>
+</head>
+<body>
+    <h1>🌊 ReefGuard Pilot Interface</h1>
+    <p><strong>Status:</strong> <span id="status">Loading...</span></p>
+    <button onclick="getGreeting()">Get Greeting</button>
+
+    <script>
+        document.getElementById('status').innerText = 'Ready';
+
+        function getGreeting() {
+            // Simulated Web3 call
+            alert("Hello from ReefGuard Smart Contract!");
+        }
+    </script>
+</body>
+</html>
